@@ -1,0 +1,369 @@
+{
+  "General": {
+    "TimedPointsReward": {
+      "Enabled": true,
+      "Interval": 900,
+      "Amount": 10
+    },
+    "WipeTime": 1784991600,
+    "UseModdedCryo": false,
+    "CryoPath": ""
+  },
+  "ShopItems": {
+    "Starterkit": {
+      "Type": "kit",
+      "Description": "Starter Kit",
+      "DefaultAmount": 3,
+      "UnlockTime": 1,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_MetalShield.PrimalItemArmor_MetalShield'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "",
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "",
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ],
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/PrimalItemArmor_MaelizardSaddle.PrimalItemArmor_MaelizardSaddle'",
+          "Gender": "random"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "random"
+        }
+      ]
+    },
+    "24HRKIT": {
+      "Type": "kit",
+      "Description": "24HR Rebuild Kit",
+      "DefaultAmount": 1,
+      "UnlockTime": 24,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFloor.PrimalItemStructure_MetalFloor'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWall.PrimalItemStructure_MetalWall'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekGenerator.PrimalItemStructure_TekGenerator'",
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekReplicator.PrimalItemStructure_TekReplicator'",
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeiling.PrimalItemStructure_MetalCeiling'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretTek.PrimalItemStructure_TurretTek'",
+          "Amount": 15,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_HeavyTurret.PrimalItemStructure_HeavyTurret'",
+          "Amount": 15,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'",
+          "Amount": 150,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedRifleBullet.PrimalItemAmmo_AdvancedRifleBullet'",
+          "Amount": 10000,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ],
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "female"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+          "Gender": "female"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "4HRKIT": {
+      "Type": "kit",
+      "Description": "4HR Kit",
+      "DefaultAmount": 1,
+      "UnlockTime": 4,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedSniperBullet.PrimalItemAmmo_AdvancedSniperBullet'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleShotgunBullet.PrimalItemAmmo_SimpleShotgunBullet'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ],
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "random"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Gender": "random"
+        }
+      ]
+    },
+    "Acrocanthosaurus Breeding Pair": {
+      "Type": "package",
+      "Description": "Acrocanthosaurus Breeding Pair",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Acrocanthosaurus_Character_BP.Acrocanthosaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Acrocanthosaurus_Character_BP.Acrocanthosaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    }
+  }
+}
