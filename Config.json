@@ -2,8 +2,8 @@
   "General": {
     "TimedPointsReward": {
       "Enabled": true,
-      "Interval": 900,
-      "Amount": 10
+      "Interval": 60,
+      "Amount": 500
     },
     "WipeTime": 1784991600,
     "UseModdedCryo": true,
