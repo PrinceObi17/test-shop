@@ -2,7 +2,7 @@
   "General": {
     "TimedPointsReward": {
       "Enabled": true,
-      "Interval": 60,
+      "Interval": 30,
       "Amount": 500
     },
     "WipeTime": 1784991600,
