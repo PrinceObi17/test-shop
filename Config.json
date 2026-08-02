@@ -2,8 +2,8 @@
   "General": {
     "TimedPointsReward": {
       "Enabled": true,
-      "Interval": 30,
-      "Amount": 500
+      "Interval": 900,
+      "Amount": 10
     },
     "WipeTime": 1784991600,
     "UseModdedCryo": true,
@@ -86,18 +86,6 @@
           "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'",
           "Amount": 1,
           "Quality": 1,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "",
-          "Amount": 1,
-          "Quality": 0,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "",
-          "Amount": 1,
-          "Quality": 0,
           "ForceBlueprint": false
         },
         {
@@ -641,7 +629,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'",
-          "Level": 180,
+          "Level": 160,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
@@ -649,7 +637,7 @@
         },
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'",
-          "Level": 180,
+          "Level": 160,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
@@ -756,7 +744,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'",
-          "Level": 150,
+          "Level": 127,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "",
@@ -764,7 +752,7 @@
         },
         {
           "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'",
-          "Level": 150,
+          "Level": 127,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "",
@@ -779,7 +767,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'",
-          "Level": 150,
+          "Level": 127,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "",
@@ -787,7 +775,7 @@
         },
         {
           "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'",
-          "Level": 150,
+          "Level": 127,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "",
@@ -802,7 +790,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'",
-          "Level": 150,
+          "Level": 127,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "",
@@ -810,7 +798,7 @@
         },
         {
           "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'",
-          "Level": 150,
+          "Level": 127,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "",
@@ -870,15 +858,15 @@
       "Price": 100,
       "Dinos": [
         {
-          "Blueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP.Archelon_Character_BP'",
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA'",
           "Level": 150,
           "Neutered": false,
-          "SpawnInCryo": true,
+          "SpawnInCryo": false,
           "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Saddle/PrimalItem_Armor_Archelon_Saddle_ASA.PrimalItem_Armor_Archelon_Saddle_ASA'",
           "Gender": "male"
         },
         {
-          "Blueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP.Archelon_Character_BP'",
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA'",
           "Level": 150,
           "Neutered": false,
           "SpawnInCryo": true,
@@ -1215,7 +1203,7 @@
       "Price": 200,
       "Dinos": [
         {
-          "Blueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP'",
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP'",
           "Level": 150,
           "Neutered": false,
           "SpawnInCryo": true,
@@ -1223,7 +1211,7 @@
           "Gender": "male"
         },
         {
-          "Blueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP'",
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP'",
           "Level": 150,
           "Neutered": false,
           "SpawnInCryo": true,
