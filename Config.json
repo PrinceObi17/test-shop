@@ -1910,6 +1910,29 @@
         }
       ]
     },
+    "Tek Giganotosaurus": {
+      "Type": "package",
+      "Description": "Tek Giganotosaurus",
+      "Price": 220,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP'",
+          "Level": 152,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP'",
+          "Level": 152,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
     "Gigantoraptor": {
       "Type": "package",
       "Description": "Gigantoraptor",
