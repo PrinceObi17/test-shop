@@ -7,7 +7,7 @@
     },
     "WipeTime": 1784991600,
     "UseModdedCryo": true,
-    "CryoPath": ""
+    "CryoPath": "Blueprint'/Cryopods/Cryopods/PrimalItem_WeaponEmptyCryopod_Mod.PrimalItem_WeaponEmptyCryopod_Mod'"
   },
   "ShopItems": {
     "Starterkit": {
@@ -629,7 +629,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
@@ -637,7 +637,7 @@
         },
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
@@ -2300,7 +2300,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'",
@@ -2308,7 +2308,7 @@
         },
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'",
@@ -2407,7 +2407,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
@@ -2415,7 +2415,7 @@
         },
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
@@ -2560,7 +2560,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
@@ -2568,26 +2568,11 @@
         },
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
           "Gender": "female"
-        }
-      ]
-    },
-    "Tek Stryder": {
-      "Type": "package",
-      "Description": "Tek Stryder",
-      "Price": 200,
-      "Dinos": [
-        {
-          "Blueprint": "Blueprint'/Game/Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP'",
-          "Level": 150,
-          "Neutered": false,
-          "SpawnInCryo": true,
-          "SaddleBlueprint": "",
-          "Gender": "random"
         }
       ]
     },
@@ -2690,7 +2675,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
@@ -2698,7 +2683,7 @@
         },
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP'",
-          "Level": 155,
+          "Level": 152,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
