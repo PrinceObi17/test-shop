@@ -1631,7 +1631,7 @@
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Deinotherium/Dinos/Saddle/PrimalItemArmor_DeinotheriumSaddle_ASA.PrimalItemArmor_DeinotheriumSaddle_ASA'",
           "Gender": "female"
-        }
+       }
       ]
     },
     "Deinonychus": {
