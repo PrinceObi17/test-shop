@@ -1,0 +1,3095 @@
+{
+  "General": {
+    "TimedPointsReward": {
+      "Enabled": true,
+      "Interval": 900,
+      "Amount": 10
+    },
+    "WipeTime": 1784991600,
+    "UseModdedCryo": true,
+    "CryoPath": "Blueprint'/Cryopods/Cryopods/PrimalItem_WeaponEmptyCryopod_Mod.PrimalItem_WeaponEmptyCryopod_Mod'"
+  },
+  "ShopItems": {
+    "Starterkit": {
+      "Type": "kit",
+      "Description": "Starter Kit",
+      "DefaultAmount": 3,
+      "UnlockTime": 1,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_MetalShield.PrimalItemArmor_MetalShield'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ],
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/PrimalItemArmor_MaelizardSaddle.PrimalItemArmor_MaelizardSaddle'",
+          "Gender": "random"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "random"
+        }
+      ]
+    },
+    "24HRKIT": {
+      "Type": "kit",
+      "Description": "24HR Rebuild Kit",
+      "DefaultAmount": 1,
+      "UnlockTime": 24,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFloor.PrimalItemStructure_MetalFloor'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWall.PrimalItemStructure_MetalWall'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekGenerator.PrimalItemStructure_TekGenerator'",
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekReplicator.PrimalItemStructure_TekReplicator'",
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeiling.PrimalItemStructure_MetalCeiling'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretTek.PrimalItemStructure_TurretTek'",
+          "Amount": 15,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_HeavyTurret.PrimalItemStructure_HeavyTurret'",
+          "Amount": 15,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'",
+          "Amount": 150,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedRifleBullet.PrimalItemAmmo_AdvancedRifleBullet'",
+          "Amount": 10000,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ],
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "female"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+          "Gender": "female"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "4HRKIT": {
+      "Type": "kit",
+      "Description": "4HR Kit",
+      "DefaultAmount": 1,
+      "UnlockTime": 4,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedSniperBullet.PrimalItemAmmo_AdvancedSniperBullet'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleShotgunBullet.PrimalItemAmmo_SimpleShotgunBullet'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ],
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "random"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Gender": "random"
+        }
+      ]
+    },
+    "Farm Kit": {
+      "Type": "package",
+      "Description": "Farm Kit",
+      "Price": 20,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'",
+          "Level": 100,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'",
+          "Gender": "random"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'",
+          "Level": 100,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'",
+          "Gender": "random"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
+          "Level": 100,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'",
+          "Gender": "random"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'",
+          "Level": 100,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "random"
+        }
+      ]
+    },
+    "Argentavis": {
+      "Type": "package",
+      "Description": "Argentavis ",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Desmodus": {
+      "Type": "package",
+      "Description": "Desmodus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/Desmodus_Character_BP.Desmodus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/PrimalItemArmor_DesmodusSaddle.PrimalItemArmor_DesmodusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/Desmodus_Character_BP.Desmodus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/PrimalItemArmor_DesmodusSaddle.PrimalItemArmor_DesmodusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Dreadmare": {
+      "Type": "package",
+      "Description": "Dreadmare",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/DarkPegasus/DarkPegasus_Character_BP.DarkPegasus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/DarkPegasus/DarkPegasus_Character_BP.DarkPegasus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Featherlight": {
+      "Type": "package",
+      "Description": "Featherlight",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternBird/LanternBird_Character_BP.LanternBird_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternBird/LanternBird_Character_BP.LanternBird_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Griffin": {
+      "Type": "package",
+      "Description": "Griffin",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Lumina": {
+      "Type": "package",
+      "Description": "Lumina",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Lumina/Lumina_Character_BP.Lumina_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Lumina/Saddle/PrimalItemArmor_LuminaSaddle.PrimalItemArmor_LuminaSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Lumina/Lumina_Character_BP.Lumina_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Lumina/Saddle/PrimalItemArmor_LuminaSaddle.PrimalItemArmor_LuminaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Managarmr": {
+      "Type": "package",
+      "Description": "Managarmr",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Parrot": {
+      "Type": "package",
+      "Description": "Parrot",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Parrot/Parrot_Character_BP.Parrot_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Parrot/Parrot_Character_BP.Parrot_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Phoenix": {
+      "Type": "package",
+      "Description": "Phoenix",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Pteranodon": {
+      "Type": "package",
+      "Description": "Pteranodon",
+      "Price": 60,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Quetzal": {
+      "Type": "package",
+      "Description": "Quetzal",
+      "Price": 140,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Quetzal": {
+      "Type": "package",
+      "Description": "Tek Quetzal",
+      "Price": 160,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Rhyniognatha": {
+      "Type": "package",
+      "Description": "Rhyniognatha",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rhyniognatha/Rhynio_Character_BP.Rhynio_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhynioSaddle.PrimalItemArmor_RhynioSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rhyniognatha/Rhynio_Character_BP.Rhynio_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhynioSaddle.PrimalItemArmor_RhynioSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Snow Owl": {
+      "Type": "package",
+      "Description": "Snow Owl",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_OwlSaddle.PrimalItemArmor_OwlSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_OwlSaddle.PrimalItemArmor_OwlSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tapejara": {
+      "Type": "package",
+      "Description": "Tapejara",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Umbra": {
+      "Type": "package",
+      "Description": "Umbra",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Umbra/Umbra_Character_BP.Umbra_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Umbra/Saddle/PrimalItemArmor_UmbraSaddle.PrimalItemArmor_UmbraSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Umbra/Umbra_Character_BP.Umbra_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Umbra/Saddle/PrimalItemArmor_UmbraSaddle.PrimalItemArmor_UmbraSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Fire Wyvern": {
+      "Type": "package",
+      "Description": "Fire Wyvern",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'",
+          "Level": 127,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'",
+          "Level": 127,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Poison Wyvern": {
+      "Type": "package",
+      "Description": "Poison Wyvern",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'",
+          "Level": 127,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'",
+          "Level": 127,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Lightning Wyvern": {
+      "Type": "package",
+      "Description": "Lightning Wyvern",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'",
+          "Level": 127,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'",
+          "Level": 127,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Yi Ling": {
+      "Type": "package",
+      "Description": "Yi Ling",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/YiLing/YiLing_Character_BP.YiLing_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/YiLing/PrimalItemArmor_YiLingSaddle.PrimalItemArmor_YiLingSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/YiLing/YiLing_Character_BP.YiLing_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/YiLing/PrimalItemArmor_YiLingSaddle.PrimalItemArmor_YiLingSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Angler": {
+      "Type": "package",
+      "Description": "Angler",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Archelon": {
+      "Type": "package",
+      "Description": "Archelon",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Saddle/PrimalItem_Armor_Archelon_Saddle_ASA.PrimalItem_Armor_Archelon_Saddle_ASA'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Saddle/PrimalItem_Armor_Archelon_Saddle_ASA.PrimalItem_Armor_Archelon_Saddle_ASA'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Baryonyx": {
+      "Type": "package",
+      "Description": "Baryonyx",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BaryonyxSaddle.PrimalItemArmor_BaryonyxSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BaryonyxSaddle.PrimalItemArmor_BaryonyxSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Basilosaurus": {
+      "Type": "package",
+      "Description": "Basilosaurus",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Castoroides": {
+      "Type": "package",
+      "Description": "Castoroides",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Deinosuchus": {
+      "Type": "package",
+      "Description": "Deinosuchus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Deinosuchus/Deinosuchusasa_Character_BP.Deinosuchusasa_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Deinosuchus/Saddle/PrimalItemArmor_Deinosuchus_Saddle_ASA.PrimalItemArmor_Deinosuchus_Saddle_ASA'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Deinosuchus/Deinosuchusasa_Character_BP.Deinosuchusasa_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Deinosuchus/Saddle/PrimalItemArmor_Deinosuchus_Saddle_ASA.PrimalItemArmor_Deinosuchus_Saddle_ASA'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Dunkleosteus": {
+      "Type": "package",
+      "Description": "Dunkleosteus",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DunkleosteusSaddle.PrimalItemArmor_DunkleosteusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DunkleosteusSaddle.PrimalItemArmor_DunkleosteusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Grand Tortugar": {
+      "Type": "package",
+      "Description": "Grand Tortugar",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/GrandTortugar/Saddle/PrimalItemArmor_GrandTortugar_Platform.PrimalItemArmor_GrandTortugar_Platform'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/GrandTortugar/Saddle/PrimalItemArmor_GrandTortugar_Platform.PrimalItemArmor_GrandTortugar_Platform'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Helicoprion": {
+      "Type": "package",
+      "Description": "Helicoprion",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Helicoprion/Helicoprion_Character_BP.Helicoprion_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Helicoprion/PrimalItemArmor_HelicoprionSaddle.PrimalItemArmor_HelicoprionSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Helicoprion/Helicoprion_Character_BP.Helicoprion_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Helicoprion/PrimalItemArmor_HelicoprionSaddle.PrimalItemArmor_HelicoprionSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Ichthyosaurus": {
+      "Type": "package",
+      "Description": "Ichthyosaurus",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DolphinSaddle.PrimalItemArmor_DolphinSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DolphinSaddle.PrimalItemArmor_DolphinSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Megachelon": {
+      "Type": "package",
+      "Description": "Megachelon",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/GiantTurtle_Character_BP.GiantTurtle_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/PrimalItemArmor_GiantTurtleSaddle.PrimalItemArmor_GiantTurtleSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/GiantTurtle_Character_BP.GiantTurtle_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/PrimalItemArmor_GiantTurtleSaddle.PrimalItemArmor_GiantTurtleSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Megalodon": {
+      "Type": "package",
+      "Description": "Megalodon ",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Mosasaurus": {
+      "Type": "package",
+      "Description": "Mosasaurus",
+      "Price": 180,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle.PrimalItemArmor_MosaSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle.PrimalItemArmor_MosaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Palaeoctopus": {
+      "Type": "package",
+      "Description": "Palaeoctopus",
+      "Price": 180,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Paleoctopus/Palaeoctopus_Character_BP.Palaeoctopus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Paleoctopus/Saddle/PrimalItemArmor_PalaeoctopusSaddle.PrimalItemArmor_PalaeoctopusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Paleoctopus/Palaeoctopus_Character_BP.Palaeoctopus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Paleoctopus/Saddle/PrimalItemArmor_PalaeoctopusSaddle.PrimalItemArmor_PalaeoctopusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Plesiosaur": {
+      "Type": "package",
+      "Description": "Plesiosaur",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiaSaddle.PrimalItemArmor_PlesiaSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiaSaddle.PrimalItemArmor_PlesiaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Sarco": {
+      "Type": "package",
+      "Description": "Sarco",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SarcoSaddle.PrimalItemArmor_SarcoSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SarcoSaddle.PrimalItemArmor_SarcoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Shastasaurus": {
+      "Type": "package",
+      "Description": "Shastasaurus",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Shastasaurus/PrimalItemArmor_ShastaSaddle_Submarine.PrimalItemArmor_ShastaSaddle_Submarine'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Shastasaurus/PrimalItemArmor_ShastaSaddle_Submarine.PrimalItemArmor_ShastaSaddle_Submarine'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tusoteuthis": {
+      "Type": "package",
+      "Description": "Tusoteuthis",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TusoSaddle.PrimalItemArmor_TusoSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TusoSaddle.PrimalItemArmor_TusoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Xiphactinus": {
+      "Type": "package",
+      "Description": "Xiphactinus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Xiphactinus/Dinos/Xiphactinus_Character_BP_ASA.Xiphactinus_Character_BP_ASA'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Xiphactinus/Dinos/Xiphactinus_Character_BP_ASA.Xiphactinus_Character_BP_ASA'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Xiphactinus/Dinos/Saddle/PrimalItemArmor_XiphSaddle_ASA.PrimalItemArmor_XiphSaddle_ASA'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Acrocanthosaurus": {
+      "Type": "package",
+      "Description": "Acrocanthosaurus",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Acrocanthosaurus_Character_BP.Acrocanthosaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Saddle/PrimalItemArmor_AcroSaddle.PrimalItemArmor_AcroSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Acrocanthosaurus_Character_BP.Acrocanthosaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Saddle/PrimalItemArmor_AcroSaddle.PrimalItemArmor_AcroSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Allosaurus": {
+      "Type": "package",
+      "Description": "Allosaurus",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Ankylosaurus": {
+      "Type": "package",
+      "Description": "Ankylosaurus",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Araneo": {
+      "Type": "package",
+      "Description": "Araneo",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Arthropluera": {
+      "Type": "package",
+      "Description": "Arthropluera",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArthroSaddle.PrimalItemArmor_ArthroSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArthroSaddle.PrimalItemArmor_ArthroSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Basilisk": {
+      "Type": "package",
+      "Description": "Basilisk",
+      "Price": 180,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Beelzebufo": {
+      "Type": "package",
+      "Description": "Beelzebufo",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Bloodstalker": {
+      "Type": "package",
+      "Description": "Bloodstalker",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/BogSpider/BogSpider_Character_BP.BogSpider_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/BogSpider/BogSpider_Character_BP.BogSpider_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Bulbdog": {
+      "Type": "package",
+      "Description": "Bulbdog",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Burrowbuck": {
+      "Type": "package",
+      "Description": "Burrowbuck",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Jackalope/Jackalope_Character_BP.Jackalope_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Jackalope/PrimalItemArmor_JackalopeSaddle.PrimalItemArmor_JackalopeSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Jackalope/Jackalope_Character_BP.Jackalope_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Jackalope/PrimalItemArmor_JackalopeSaddle.PrimalItemArmor_JackalopeSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Carbonemys": {
+      "Type": "package",
+      "Description": "Carbonemys",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Carcharodontosaurus": {
+      "Type": "package",
+      "Description": "Carcharodontosaurus",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carcharodontosaurus/Carcha_Character_BP.Carcha_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carcharodontosaurus/Carcha_Character_BP.Carcha_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Carnotaurus": {
+      "Type": "package",
+      "Description": "Carnotaurus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarnoSaddle.PrimalItemArmor_CarnoSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarnoSaddle.PrimalItemArmor_CarnoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Cosmo": {
+      "Type": "package",
+      "Description": "Cosmo",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Packs/Steampunk/Dinos/JumpingSpider/JumpingSpider_Character_BP.JumpingSpider_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Packs/Steampunk/Dinos/JumpingSpider/JumpingSpider_Character_BP.JumpingSpider_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Daeodon": {
+      "Type": "package",
+      "Description": "Daeodon",
+      "Price": 70,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Deinotherium": {
+      "Type": "package",
+      "Description": "Deinotherium",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Deinotherium/DeinotheriumASA_Character_BP.DeinotheriumASA_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Deinotherium/Dinos/Saddle/PrimalItemArmor_DeinotheriumSaddle_ASA.PrimalItemArmor_DeinotheriumSaddle_ASA'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Deinotherium/DeinotheriumASA_Character_BP.DeinotheriumASA_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Deinotherium/Dinos/Saddle/PrimalItemArmor_DeinotheriumSaddle_ASA.PrimalItemArmor_DeinotheriumSaddle_ASA'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Deinonychus": {
+      "Type": "package",
+      "Description": "Deinonychus",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Uberraptor/Deinonychus_Character_BP.Deinonychus_Character_BP'",
+          "Level": 100,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Valguero/Dinos/Deinonychus/PrimalItemArmor_DeinonychusSaddle.PrimalItemArmor_DeinonychusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Uberraptor/Deinonychus_Character_BP.Deinonychus_Character_BP'",
+          "Level": 100,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Valguero/Dinos/Deinonychus/PrimalItemArmor_DeinonychusSaddle.PrimalItemArmor_DeinonychusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Diplodocus": {
+      "Type": "package",
+      "Description": "Diplodocus",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DiplodocusSaddle.PrimalItemArmor_DiplodocusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DiplodocusSaddle.PrimalItemArmor_DiplodocusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Dire Bear": {
+      "Type": "package",
+      "Description": "Dire Bear",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DireBearSaddle.PrimalItemArmor_DireBearSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DireBearSaddle.PrimalItemArmor_DireBearSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Doedicurus": {
+      "Type": "package",
+      "Description": "Doedicurus",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Dreadnoughtus": {
+      "Type": "package",
+      "Description": "Dreadnoughtus",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Dreadnoughtus/Dreadnoughtus_Character_BP.Dreadnoughtus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Dreadnoughtus/PrimalItemArmor_DreadSaddle_Platform.PrimalItemArmor_DreadSaddle_Platform'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Dreadnoughtus/Dreadnoughtus_Character_BP.Dreadnoughtus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Dreadnoughtus/PrimalItemArmor_DreadSaddle_Platform.PrimalItemArmor_DreadSaddle_Platform'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Elderclaw": {
+      "Type": "package",
+      "Description": "Elderclaw",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/SpiritBear/SpiritBear_Character_BP.SpiritBear_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/SpiritBear/SpiritBear_Character_BP.SpiritBear_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Equus": {
+      "Type": "package",
+      "Description": "Equus",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP.Equus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP.Equus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Fasolasuchus": {
+      "Type": "package",
+      "Description": "Fasolasuchus",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Fasolasuchus/Fasola_Character_BP.Fasola_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Fasolasuchus/PrimalItemArmor_FasolaSaddle.PrimalItemArmor_FasolaSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Fasolasuchus/Fasola_Character_BP.Fasola_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Fasolasuchus/PrimalItemArmor_FasolaSaddle.PrimalItemArmor_FasolaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Ferox": {
+      "Type": "package",
+      "Description": "Ferox",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/Shapeshifter/Shapeshifter_Small/Shapeshifter_Small_Character_BP.Shapeshifter_Small_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/Shapeshifter/Shapeshifter_Small/Shapeshifter_Small_Character_BP.Shapeshifter_Small_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Gacha": {
+      "Type": "package",
+      "Description": "Gacha",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Gacha/Gacha_Character_BP.Gacha_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GachaSaddle.PrimalItemArmor_GachaSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Gacha/Gacha_Character_BP.Gacha_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GachaSaddle.PrimalItemArmor_GachaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Gasbags": {
+      "Type": "package",
+      "Description": "Gasbags",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/GasBag/GasBags_Character_BP.GasBags_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GasBagsSaddle.PrimalItemArmor_GasBagsSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/GasBag/GasBags_Character_BP.GasBags_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GasBagsSaddle.PrimalItemArmor_GasBagsSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Bison": {
+      "Type": "package",
+      "Description": "Bison",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Bison/Bison_Character_BP.Bison_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Bison/Bison_Character_BP.Bison_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinotems/Bison/PrimalItemArmor_BisonSaddle.PrimalItemArmor_BisonSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Giganotosaurus": {
+      "Type": "package",
+      "Description": "Giganotosaurus",
+      "Price": 200,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Giganotosaurus": {
+      "Type": "package",
+      "Description": "Tek Giganotosaurus",
+      "Price": 220,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Gigantoraptor": {
+      "Type": "package",
+      "Description": "Gigantoraptor",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Gigantoraptor/Gigantoraptor_Character_BP.Gigantoraptor_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Gigantoraptor/PrimalItemArmor_GigantoraptorSaddle.PrimalItemArmor_GigantoraptorSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Gigantoraptor/Gigantoraptor_Character_BP.Gigantoraptor_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Gigantoraptor/PrimalItemArmor_GigantoraptorSaddle.PrimalItemArmor_GigantoraptorSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Glowtail": {
+      "Type": "package",
+      "Description": "Glowtail",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternLizard/LanternLizard_Character_BP.LanternLizard_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternLizard/LanternLizard_Character_BP.LanternLizard_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Kaprosuchus": {
+      "Type": "package",
+      "Description": "Kaprosuchus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Karkinos": {
+      "Type": "package",
+      "Description": "Karkinos",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Kentrosaurus": {
+      "Type": "package",
+      "Description": "Kentrosaurus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Maeguana": {
+      "Type": "package",
+      "Description": "Maeguana",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/PrimalItemArmor_MaelizardSaddle.PrimalItemArmor_MaelizardSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/PrimalItemArmor_MaelizardSaddle.PrimalItemArmor_MaelizardSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Magmasaur": {
+      "Type": "package",
+      "Description": "Magmasaur",
+      "Price": 150,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/Cherufe/Cherufe_Character_BP.Cherufe_Character_BP'",
+          "Level": 100,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Genesis/Dinos/Cherufe/PrimalItemArmor_CherufeSaddle.PrimalItemArmor_CherufeSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/Cherufe/Cherufe_Character_BP.Cherufe_Character_BP'",
+          "Level": 100,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Genesis/Dinos/Cherufe/PrimalItemArmor_CherufeSaddle.PrimalItemArmor_CherufeSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Mammoth": {
+      "Type": "package",
+      "Description": "Mammoth",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MammothSaddle.PrimalItemArmor_MammothSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MammothSaddle.PrimalItemArmor_MammothSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Mantis": {
+      "Type": "package",
+      "Description": "Mantis",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Megalosaurus": {
+      "Type": "package",
+      "Description": "Megalosaurus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Megaraptor": {
+      "Type": "package",
+      "Description": "Megaraptor",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Megaraptor/ValMegaraptor_Character_BP.ValMegaraptor_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Megaraptor/PrimalItemArmor_ValMegaraptorSaddle.PrimalItemArmor_ValMegaraptorSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Megaraptor/ValMegaraptor_Character_BP.ValMegaraptor_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Megaraptor/PrimalItemArmor_ValMegaraptorSaddle.PrimalItemArmor_ValMegaraptorSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Megatherium": {
+      "Type": "package",
+      "Description": "Megatherium",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Mek": {
+      "Type": "package",
+      "Description": "Mek",
+      "Price": 400,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Mek/Mek_Character_BP.Mek_Character_BP'",
+          "Level": 180,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "random"
+        }
+      ]
+    },
+    "Ovis": {
+      "Type": "package",
+      "Description": "Ovis",
+      "Price": 70,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Paraceratherium": {
+      "Type": "package",
+      "Description": "Paraceratherium",
+      "Price": 130,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParacerSaddle_Platform.PrimalItemArmor_ParacerSaddle_Platform'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParacerSaddle_Platform.PrimalItemArmor_ParacerSaddle_Platform'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Parasaur": {
+      "Type": "package",
+      "Description": "Parasaur",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Parasaur": {
+      "Type": "package",
+      "Description": "Tek Parasaur",
+      "Price": 70,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Procoptodon": {
+      "Type": "package",
+      "Description": "Procoptodon",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Pyromane": {
+      "Type": "package",
+      "Description": "Pyromane",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/FireLion/FireLion_Character_BP.FireLion_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/FireLion/FireLion_Character_BP.FireLion_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Reaper": {
+      "Type": "package",
+      "Description": "Reaper",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Tamed.Xenomorph_Character_BP_Male_Tamed'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "random"
+        }
+      ]
+    },
+    "Rex": {
+      "Type": "package",
+      "Description": "Rex",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Rex": {
+      "Type": "package",
+      "Description": "Tek Rex",
+      "Price": 140,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Rock Drake": {
+      "Type": "package",
+      "Description": "Rock Drake",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'",
+          "Level": 127,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'",
+          "Level": 127,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Rock Elemental": {
+      "Type": "package",
+      "Description": "Rock Elemental",
+      "Price": 160,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'",
+          "Gender": "random"
+        }
+      ]
+    },
+    "Roll Rat": {
+      "Type": "package",
+      "Description": "Roll Rat",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/MoleRat_Character_BP.MoleRat_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/MoleRat_Character_BP.MoleRat_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Shinehorn": {
+      "Type": "package",
+      "Description": "Shinehorn",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Spinosaurus": {
+      "Type": "package",
+      "Description": "Spinosaurus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpinoSaddle.PrimalItemArmor_SpinoSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpinoSaddle.PrimalItemArmor_SpinoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Stegosaurus": {
+      "Type": "package",
+      "Description": "Stegosaurus",
+      "Price": 140,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Stegosaurus": {
+      "Type": "package",
+      "Description": "Tek Stegosaurus",
+      "Price": 160,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Terror Bird": {
+      "Type": "package",
+      "Description": "Terror Bird",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Therizinosaurus": {
+      "Type": "package",
+      "Description": "Therizinosaurus",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Thylacoleo": {
+      "Type": "package",
+      "Description": "Thylacoleo",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Triceratops": {
+      "Type": "package",
+      "Description": "Triceratops",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Triceratops": {
+      "Type": "package",
+      "Description": "Tek Triceratops",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP'",
+          "Level": 151,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Unicorn": {
+      "Type": "package",
+      "Description": "Unicorn",
+      "Price": 120,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Unicorn.Equus_Character_BP_Unicorn'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Unicorn.Equus_Character_BP_Unicorn'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Velonasaur": {
+      "Type": "package",
+      "Description": "Velonasaur",
+      "Price": 60,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Woolly Rhino": {
+      "Type": "package",
+      "Description": "Woolly Rhino",
+      "Price": 70,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhinoSaddle.PrimalItemArmor_RhinoSaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhinoSaddle.PrimalItemArmor_RhinoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Yutyrannus": {
+      "Type": "package",
+      "Description": "Yutyrannus",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle'",
+          "Gender": "male"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP'",
+          "Level": 150,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Desmodus Lvl 10": {
+      "Type": "package",
+      "Description": "Desmodus Lvl 10",
+      "Price": 60,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/Desmodus_Character_BP.Desmodus_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/PrimalItemArmor_DesmodusSaddle.PrimalItemArmor_DesmodusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Managarmr Lvl 10": {
+      "Type": "package",
+      "Description": "Managarmr Lvl 10",
+      "Price": 60,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Pteranodon Lvl 10": {
+      "Type": "package",
+      "Description": "Pteranodon Lvl 10",
+      "Price": 30,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tapejara Lvl 10": {
+      "Type": "package",
+      "Description": "Tapejara Lvl 10",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Basilosaurus Lvl 10": {
+      "Type": "package",
+      "Description": "Basilosaurus Lvl 10",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Megachelon Lvl 10": {
+      "Type": "package",
+      "Description": "Megachelon Lvl 10",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/GiantTurtle_Character_BP.GiantTurtle_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/PrimalItemArmor_GiantTurtleSaddle.PrimalItemArmor_GiantTurtleSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Acrocanthosaurus Lvl 10": {
+      "Type": "package",
+      "Description": "Acrocanthosaurus Lvl 10",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Acrocanthosaurus_Character_BP.Acrocanthosaurus_Character_BP'",
+          "Level": 4,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Saddle/PrimalItemArmor_AcroSaddle.PrimalItemArmor_AcroSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Carbonemys Lvl 10": {
+      "Type": "package",
+      "Description": "Carbonemys Lvl 10",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Carcharodontosaurus Lvl 10": {
+      "Type": "package",
+      "Description": "Carcharodontosaurus Lvl 10",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carcharodontosaurus/Carcha_Character_BP.Carcha_Character_BP'",
+          "Level": 6,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Dreadnoughtus Lvl 10": {
+      "Type": "package",
+      "Description": "Dreadnoughtus Lvl 10 ",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Dreadnoughtus/Dreadnoughtus_Character_BP.Dreadnoughtus_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/ASA/Dinos/Dreadnoughtus/PrimalItemArmor_DreadSaddle_Platform.PrimalItemArmor_DreadSaddle_Platform'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Giganotosaurus Lvl 10": {
+      "Type": "package",
+      "Description": "Giganotosaurus Lvl 10",
+      "Price": 100,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Giganotosaurus Lvl 10": {
+      "Type": "package",
+      "Description": "Tek Giganotosaurus Lvl 10",
+      "Price": 110,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Paraceratherium Lvl 10": {
+      "Type": "package",
+      "Description": "Paraceratherium Lvl 10",
+      "Price": 65,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Paracer_Saddle.PrimalItemArmor_Paracer_Saddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Stegosaurus Lvl 10": {
+      "Type": "package",
+      "Description": "Stegosaurus Lvl 10",
+      "Price": 70,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Stegosaurus Lvl 10": {
+      "Type": "package",
+      "Description": "Tek Stegosaurus Lvl 10",
+      "Price": 80,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Therizinosaurus Lvl 10": {
+      "Type": "package",
+      "Description": "Therizinosaurus Lvl 10",
+      "Price": 60,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Thylacoleo Lvl 10": {
+      "Type": "package",
+      "Description": "Thylacoleo Lvl 10",
+      "Price": 40,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Triceratops Lvl 10": {
+      "Type": "package",
+      "Description": "Triceratops Lvl 10",
+      "Price": 50,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+          "Gender": "female"
+        }
+      ]
+    },
+    "Tek Triceratops Lvl 10": {
+      "Type": "package",
+      "Description": "Tek Triceratops Lvl 10",
+      "Price": 60,
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP'",
+          "Level": 7,
+          "Neutered": false,
+          "SpawnInCryo": false,
+          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+          "Gender": "female"
+        }
+      ]
+    }
+  }
+}
