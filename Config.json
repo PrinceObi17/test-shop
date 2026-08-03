@@ -3061,19 +3061,3 @@
         }
       ]
     },
-    "Triceratops Lvl 10": {
-      "Type": "package",
-      "Description": "Triceratops Lvl 10",
-      "Price": 50,
-      "Dinos": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'",
-          "Level": 7,
-          "Neutered": false,
-          "SpawnInCryo": true,
-          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
-          "Gender": "female"
-        }
-      ]
-    },
-    
