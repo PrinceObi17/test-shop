@@ -3076,15 +3076,4 @@
         }
       ]
     },
-    "Tek Triceratops Lvl 10": {
-      "Type": "package",
-      "Description": "Tek Triceratops Lvl 10",
-      "Price": 60,
-      "Dinos": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP'",
-          "Level": 7,
-          "Neutered": false,
-          "SpawnInCryo": true,
-          "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
-          "Gender": "female"
+    
