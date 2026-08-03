@@ -1608,7 +1608,7 @@
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'",
           "Gender": "female"
-       }
+        }
       ]
     },
     "Deinotherium": {
