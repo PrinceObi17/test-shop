@@ -6,8 +6,8 @@
       "Amount": 10
     },
     "WipeTime": 1784991600,
-    "UseModdedCryo": true,
-    "CryoPath": "Blueprint'/Cryopods/Cryopods/PrimalItem_WeaponEmptyCryopod_Mod.PrimalItem_WeaponEmptyCryopod_Mod'"
+    "UseModdedCryo": false,
+    "CryoPath": ""
   },
   "ShopItems": {
     "Starterkit": {
@@ -3088,6 +3088,1085 @@
           "SpawnInCryo": false,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
           "Gender": "female"
+        }
+      ]
+    },
+    "Argentavis Saddle BP": {
+      "Type": "package",
+      "Description": "Argentavis Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Desmodus Saddle BP": {
+      "Type": "package",
+      "Description": "Desmodus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/PrimalItemArmor_DesmodusSaddle.PrimalItemArmor_DesmodusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Lumina Saddle BP": {
+      "Type": "package",
+      "Description": "Lumina Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Lumina/Saddle/PrimalItemArmor_LuminaSaddle.PrimalItemArmor_LuminaSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Managarmr Saddle BP": {
+      "Type": "package",
+      "Description": "Managarmr Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Pteranodon Saddle BP": {
+      "Type": "package",
+      "Description": "Pteranodon Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Quetzal Platform Saddle BP": {
+      "Type": "package",
+      "Description": "Quetzal Platform Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Rhyniognatha Saddle BP": {
+      "Type": "package",
+      "Description": "Rhyniognatha Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhynioSaddle.PrimalItemArmor_RhynioSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Snow Owl Saddle BP": {
+      "Type": "package",
+      "Description": "Snow Owl Saddle BP",
+      "Price": 120,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_OwlSaddle.PrimalItemArmor_OwlSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Tapejara Saddle BP": {
+      "Type": "package",
+      "Description": "Tek Tapejara Saddle BP",
+      "Price": 170,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Umbra Saddle BP": {
+      "Type": "package",
+      "Description": "Umbra Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Umbra/Saddle/PrimalItemArmor_UmbraSaddle.PrimalItemArmor_UmbraSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Yi Ling Saddle BP": {
+      "Type": "package",
+      "Description": "Yi Ling Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/YiLing/PrimalItemArmor_YiLingSaddle.PrimalItemArmor_YiLingSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Archelon Saddle BP": {
+      "Type": "package",
+      "Description": "Archelon Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Archelon/Dinos/Saddle/PrimalItem_Armor_Archelon_Saddle_ASA.PrimalItem_Armor_Archelon_Saddle_ASA'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Baryonyx Saddle BP": {
+      "Type": "package",
+      "Description": "Baryonyx Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BaryonyxSaddle.PrimalItemArmor_BaryonyxSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Basilosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Basilosaurus Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Castoroides Saddle BP": {
+      "Type": "package",
+      "Description": "Castoroides Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Deinosuchus Saddle BP": {
+      "Type": "package",
+      "Description": "Deinosuchus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Deinosuchus/Saddle/PrimalItemArmor_Deinosuchus_Saddle_ASA.PrimalItemArmor_Deinosuchus_Saddle_ASA'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Dunkleosteus Saddle BP": {
+      "Type": "package",
+      "Description": "Dunkleosteus Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DunkleosteusSaddle.PrimalItemArmor_DunkleosteusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Grand Tortugar Saddle BP": {
+      "Type": "package",
+      "Description": "Grand Tortugar Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/GrandTortugar/Saddle/PrimalItemArmor_GrandTortugaSaddle.PrimalItemArmor_GrandTortugaSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Grand Tortugar Platform Saddle BP": {
+      "Type": "package",
+      "Description": "Grand Tortugar Platform Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/GrandTortugar/Saddle/PrimalItemArmor_GrandTortugar_Platform.PrimalItemArmor_GrandTortugar_Platform'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Helicoprion Saddle BP": {
+      "Type": "package",
+      "Description": "Helicoprion Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Helicoprion/PrimalItemArmor_HelicoprionSaddle.PrimalItemArmor_HelicoprionSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Ichthyosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Ichthyosaurus Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DolphinSaddle.PrimalItemArmor_DolphinSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Megachelon Platform Saddle BP": {
+      "Type": "package",
+      "Description": "Megachelon Platform Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/PrimalItemArmor_GiantTurtleSaddle.PrimalItemArmor_GiantTurtleSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Megalodon Saddle BP": {
+      "Type": "package",
+      "Description": "Megalodon Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Megalodon Saddle BP": {
+      "Type": "package",
+      "Description": "Tek Megalodon Saddle BP",
+      "Price": 150,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Mosasaurus Platform Saddle BP": {
+      "Type": "package",
+      "Description": "Mosasaurus Platform Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Platform.PrimalItemArmor_MosaSaddle_Platform'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Mosasaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Tek Mosasaurus Saddle BP",
+      "Price": 150,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Tek.PrimalItemArmor_MosaSaddle_Tek'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Palaeoctopus Saddle BP": {
+      "Type": "package",
+      "Description": "Palaeoctopus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Packs/TidesOfFortune/Dinos/Paleoctopus/Saddle/PrimalItemArmor_PalaeoctopusSaddle.PrimalItemArmor_PalaeoctopusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Plesiosaur Platform Saddle BP": {
+      "Type": "package",
+      "Description": "Plesiosaur Platform Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiSaddle_Platform.PrimalItemArmor_PlesiSaddle_Platform'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Sarco Saddle BP": {
+      "Type": "package",
+      "Description": "Sarco Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SarcoSaddle.PrimalItemArmor_SarcoSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Shastasaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Shastasaurus Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Shastasaurus/PrimalItemArmor_ShastaSaddle_Submarine.PrimalItemArmor_ShastaSaddle_Submarine'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tusoteuthis Saddle BP": {
+      "Type": "package",
+      "Description": "Tusoteuthis Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TusoSaddle.PrimalItemArmor_TusoSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Xiphactinus Saddle BP": {
+      "Type": "package",
+      "Description": "Xiphactinus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Xiphactinus/Dinos/Saddle/PrimalItemArmor_XiphSaddle_ASA.PrimalItemArmor_XiphSaddle_ASA'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Acrocanthosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Acrocanthosaurus Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Acrocanthosaurus/Saddle/PrimalItemArmor_AcroSaddle.PrimalItemArmor_AcroSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Allosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Allosaurus Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Ankylosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Ankylosaurus Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Araneo Saddle BP": {
+      "Type": "package",
+      "Description": "Araneo Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Arthropluera Saddle BP": {
+      "Type": "package",
+      "Description": "Arthropluera Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArthroSaddle.PrimalItemArmor_ArthroSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Basilisk Saddle BP": {
+      "Type": "package",
+      "Description": "Basilisk Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Beelzebufo Saddle BP": {
+      "Type": "package",
+      "Description": "Beelzebufo Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Burrowbuck Saddle BP": {
+      "Type": "package",
+      "Description": "Burrowbuck Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Jackalope/PrimalItemArmor_JackalopeSaddle.PrimalItemArmor_JackalopeSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Carbonemys Saddle BP": {
+      "Type": "package",
+      "Description": "Carbonemys Saddle BP ",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Carcharodontosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Carcharodontosaurus Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Daeodon Saddle BP": {
+      "Type": "package",
+      "Description": "Daeodon Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Deinotherium Saddle BP": {
+      "Type": "package",
+      "Description": "Deinotherium Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Deinotherium/Dinos/Saddle/PrimalItemArmor_DeinotheriumSaddle_ASA.PrimalItemArmor_DeinotheriumSaddle_ASA'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Deinonychus Saddle BP": {
+      "Type": "package",
+      "Description": "Deinonychus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Valguero/Dinos/Deinonychus/PrimalItemArmor_DeinonychusSaddle.PrimalItemArmor_DeinonychusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Diplodocus Saddle BP": {
+      "Type": "package",
+      "Description": "Diplodocus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DiplodocusSaddle.PrimalItemArmor_DiplodocusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Dire Bear Saddle BP": {
+      "Type": "package",
+      "Description": "Dire Bear Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DireBearSaddle.PrimalItemArmor_DireBearSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Doedicurus Saddle BP": {
+      "Type": "package",
+      "Description": "Doedicurus Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Dreadnoughtus Saddle BP": {
+      "Type": "package",
+      "Description": "Dreadnoughtus Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Dreadnoughtus/PrimalItemArmor_DreadSaddle_Platform.PrimalItemArmor_DreadSaddle_Platform'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Equus Saddle BP": {
+      "Type": "package",
+      "Description": "Equus Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Fasolasuchus Saddle BP": {
+      "Type": "package",
+      "Description": "Fasolasuchus Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Fasolasuchus/PrimalItemArmor_FasolaSaddle.PrimalItemArmor_FasolaSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Gacha Saddle BP": {
+      "Type": "package",
+      "Description": "Gacha Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GachaSaddle.PrimalItemArmor_GachaSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Gasbags Saddle BP": {
+      "Type": "package",
+      "Description": "Gasbags Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GasBagsSaddle.PrimalItemArmor_GasBagsSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Bison Saddle BP": {
+      "Type": "package",
+      "Description": "Bison Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Bison/PrimalItemArmor_BisonSaddle.PrimalItemArmor_BisonSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Giganotosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Giganotosaurus Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Gigantoraptor Saddle BP": {
+      "Type": "package",
+      "Description": "Gigantoraptor Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Gigantoraptor/PrimalItemArmor_GigantoraptorSaddle.PrimalItemArmor_GigantoraptorSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Kaprosuchus Saddle BP": {
+      "Type": "package",
+      "Description": "Kaprosuchus Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Karkinos Saddle BP": {
+      "Type": "package",
+      "Description": "Karkinos Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Maeguana Saddle BP": {
+      "Type": "package",
+      "Description": "Maeguana Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Maelizard/PrimalItemArmor_MaelizardSaddle.PrimalItemArmor_MaelizardSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Magmasaur Saddle BP": {
+      "Type": "package",
+      "Description": "Magmasaur Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/Cherufe/PrimalItemArmor_CherufeSaddle.PrimalItemArmor_CherufeSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Mammoth Saddle BP": {
+      "Type": "package",
+      "Description": "Mammoth Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MammothSaddle.PrimalItemArmor_MammothSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Mantis Saddle BP": {
+      "Type": "package",
+      "Description": "Mantis Saddle BP",
+      "Price": 90,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Megalosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Megalosaurus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Megaraptor Saddle BP": {
+      "Type": "package",
+      "Description": "Megaraptor Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Megaraptor/PrimalItemArmor_ValMegaraptorSaddle.PrimalItemArmor_ValMegaraptorSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Megatherium Saddle BP": {
+      "Type": "package",
+      "Description": "Megatherium Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Paraceratherium Platform Saddle BP": {
+      "Type": "package",
+      "Description": "Paraceratherium Platform Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParacerSaddle_Platform.PrimalItemArmor_ParacerSaddle_Platform'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Parasaur Saddle BP": {
+      "Type": "package",
+      "Description": "Parasaur Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Procoptodon Saddle BP": {
+      "Type": "package",
+      "Description": "Procoptodon Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Rex Saddle BP": {
+      "Type": "package",
+      "Description": "Rex Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Rex Saddle BP": {
+      "Type": "package",
+      "Description": "Tek Rex Saddle BP",
+      "Price": 160,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Rock Drake Saddle BP": {
+      "Type": "package",
+      "Description": "Rock Drake Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Rock Drake Saddle BP": {
+      "Type": "package",
+      "Description": "Tek Rock Drake Saddle BP",
+      "Price": 150,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Rock Elemental Saddle BP": {
+      "Type": "package",
+      "Description": "Rock Elemental Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Roll Rat Saddle BP": {
+      "Type": "package",
+      "Description": "Roll Rat Saddle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Spinosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Spinosaurus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpinoSaddle.PrimalItemArmor_SpinoSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Stegosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Stegosaurus Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Terror Bird Saddle BP": {
+      "Type": "package",
+      "Description": "Terror Bird Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Therizinosaurus Saddle BP": {
+      "Type": "package",
+      "Description": "Therizinosaurus Saddle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Thylacoleo Saddle BP": {
+      "Type": "package",
+      "Description": "Thylacoleo Saddle BP",
+      "Price": 120,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Triceratops Saddle BP": {
+      "Type": "package",
+      "Description": "Triceratops Saddle BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Velonasaur Saddle BP": {
+      "Type": "package",
+      "Description": "Velonasaur Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Woolly Rhino Saddle BP": {
+      "Type": "package",
+      "Description": "Woolly Rhino Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhinoSaddle.PrimalItemArmor_RhinoSaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Yutyrannus Saddle BP": {
+      "Type": "package",
+      "Description": "Yutyrannus Saddle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
         }
       ]
     }
