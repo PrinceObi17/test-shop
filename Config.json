@@ -2,8 +2,8 @@
   "General": {
     "TimedPointsReward": {
       "Enabled": true,
-      "Interval": 30,
-      "Amount": 500
+      "Interval": 900,
+      "Amount": 10
     },
     "WipeTime": 1784991600,
     "UseModdedCryo": false,
@@ -2978,7 +2978,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP'",
-          "Level": 7,
+          "Level": 6,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'",
@@ -3023,7 +3023,7 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'",
-          "Level": 7,
+          "Level": 6,
           "Neutered": false,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle'",
@@ -3083,9 +3083,9 @@
       "Dinos": [
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP'",
-          "Level": 7,
+          "Level": 6,
           "Neutered": false,
-          "SpawnInCryo": false,
+          "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle'",
           "Gender": "female"
         }
@@ -3099,7 +3099,7 @@
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'",
           "Amount": 1,
-          "Quality": 0,
+          "Quality": 1,
           "ForceBlueprint": true
         }
       ]
@@ -3112,7 +3112,7 @@
         {
           "Blueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/PrimalItemArmor_DesmodusSaddle.PrimalItemArmor_DesmodusSaddle'",
           "Amount": 1,
-          "Quality": 0,
+          "Quality": 1,
           "ForceBlueprint": true
         }
       ]
@@ -3125,7 +3125,7 @@
         {
           "Blueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Lumina/PrimalItemArmor_LuminaSaddle.PrimalItemArmor_LuminaSaddle'",
           "Amount": 1,
-          "Quality": 0,
+          "Quality": 1,
           "ForceBlueprint": true
         }
       ]
@@ -3344,7 +3344,7 @@
       "Price": 100,
       "Items": [
         {
-          "Blueprint": "Blueprint'/Game/ASA/Dinos/Helicoprion/PrimalItemArmor_HelicoprionSaddle.PrimalItemArmor_HelicoprionSaddle'",
+          "Blueprint": "Blueprint'/Game/ASA/Dinos/Helicoprion/saddle/PrimalItemArmor_Helicoprion.PrimalItemArmor_Helicoprion'",
           "Amount": 1,
           "Quality": 1,
           "ForceBlueprint": true
@@ -4167,6 +4167,777 @@
           "Amount": 1,
           "Quality": 1,
           "ForceBlueprint": true
+        }
+      ]
+    },
+    "Pump-Action Shotgun BP": {
+      "Type": "package",
+      "Description": "Pump-Action Shotgun BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Fabricated Sniper Rifle BP": {
+      "Type": "package",
+      "Description": "Fabricated Sniper Rifle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Longneck Rifle BP": {
+      "Type": "package",
+      "Description": "Longneck Rifle BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Compound Bow BP": {
+      "Type": "package",
+      "Description": "Compound Bow BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCompoundBow.PrimalItem_WeaponCompoundBow'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Crossbow BP": {
+      "Type": "package",
+      "Description": "Crossbow BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Fabricated Crossbow": {
+      "Type": "package",
+      "Description": "Fabricated Crossbow",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/LostColony/Weapons/FabricatedCrossbow/PrimalItem_WeaponCrossbow_Fab.PrimalItem_WeaponCrossbow_Fab'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Sword BP": {
+      "Type": "package",
+      "Description": "Sword BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSword.PrimalItem_WeaponSword'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Pike BP": {
+      "Type": "package",
+      "Description": "Pike BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Wooden Club BP": {
+      "Type": "package",
+      "Description": "Wooden Club BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneClub.PrimalItem_WeaponStoneClub'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Whip BP": {
+      "Type": "package",
+      "Description": "Whip BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Metal Hatchet BP": {
+      "Type": "package",
+      "Description": "Metal Hatchet BP",
+      "Price": 20,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Metal Pick BP": {
+      "Type": "package",
+      "Description": "Metal Pick BP",
+      "Price": 20,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Sickle BP": {
+      "Type": "package",
+      "Description": "Sickle BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSickle.PrimalItem_WeaponSickle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Chainsaw BP": {
+      "Type": "package",
+      "Description": "Chainsaw BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/WeaponChainsaw/PrimalItem_ChainSaw.PrimalItem_ChainSaw'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Mining Drill BP": {
+      "Type": "package",
+      "Description": "Mining Drill BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Harpoon Launcher BP": {
+      "Type": "package",
+      "Description": "Harpoon Launcher BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponHarpoon.PrimalItem_WeaponHarpoon'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Flak Helmet BP": {
+      "Type": "package",
+      "Description": "Flak Helmet BP",
+      "Price": 20,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Flak Chestpiece BP": {
+      "Type": "package",
+      "Description": "Flak Chestpiece BP",
+      "Price": 20,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Flak Gauntlets BP": {
+      "Type": "package",
+      "Description": "Flak Gauntlets BP",
+      "Price": 20,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Flak Leggings BP": {
+      "Type": "package",
+      "Description": "Flak Leggings BP",
+      "Price": 20,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Flak Boots BP": {
+      "Type": "package",
+      "Description": "Flak Boots BP",
+      "Price": 20,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Riot Helmet BP": {
+      "Type": "package",
+      "Description": "Riot Helmet BP",
+      "Price": 30,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotHelmet.PrimalItemArmor_RiotHelmet'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Riot Chestpiece BP": {
+      "Type": "package",
+      "Description": "Riot Chestpiece BP",
+      "Price": 30,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotShirt.PrimalItemArmor_RiotShirt'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Riot Gauntlets BP": {
+      "Type": "package",
+      "Description": "Riot Gauntlets BP",
+      "Price": 30,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotGloves.PrimalItemArmor_RiotGloves'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Riot Leggings BP": {
+      "Type": "package",
+      "Description": "Riot Leggings BP",
+      "Price": 30,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotPants.PrimalItemArmor_RiotPants'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Riot Boots BP": {
+      "Type": "package",
+      "Description": "Riot Boots BP",
+      "Price": 30,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotBoots.PrimalItemArmor_RiotBoots'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Metal Shield BP": {
+      "Type": "package",
+      "Description": "Metal Shield BP",
+      "Price": 60,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_MetalShield.PrimalItemArmor_MetalShield'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Riot Shield BP": {
+      "Type": "package",
+      "Description": "Riot Shield BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_TransparentRiotShield.PrimalItemArmor_TransparentRiotShield'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Helmet BP": {
+      "Type": "package",
+      "Description": "Tek Helmet BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekHelmet.PrimalItemArmor_TekHelmet'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Chestpiece BP": {
+      "Type": "package",
+      "Description": "Tek Chestpiece BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekShirt.PrimalItemArmor_TekShirt'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Gauntlets BP": {
+      "Type": "package",
+      "Description": "Tek Gauntlets BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekGloves.PrimalItemArmor_TekGloves'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Leggings BP": {
+      "Type": "package",
+      "Description": "Tek Leggings BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekPants.PrimalItemArmor_TekPants'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Boots BP": {
+      "Type": "package",
+      "Description": "Tek Boots BP",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekBoots.PrimalItemArmor_TekBoots'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Rifle BP": {
+      "Type": "package",
+      "Description": "Tek Rifle BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekRifle.PrimalItem_TekRifle'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Sword BP": {
+      "Type": "package",
+      "Description": "Tek Sword BP",
+      "Price": 150,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTekSword.PrimalItem_WeaponTekSword'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Railgun BP": {
+      "Type": "package",
+      "Description": "Tek Railgun BP",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Aberration/WeaponTekSniper/PrimalItem_TekSniper.PrimalItem_TekSniper'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Tek Shield BP": {
+      "Type": "package",
+      "Description": "Tek Shield BP",
+      "Price": 80,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_ShieldTek.PrimalItemArmor_ShieldTek'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Mek (M.D.S.M.) BP": {
+      "Type": "package",
+      "Description": "Mek (M.D.S.M.) BP",
+      "Price": 150,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekBackpack_Shield.PrimalItemArmor_MekBackpack_Shield'",
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": true
+        }
+      ]
+    },
+    "Element": {
+      "Type": "package",
+      "Description": "Element",
+      "Price": 100,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Gasoline": {
+      "Type": "package",
+      "Description": "Gasoline",
+      "Price": 10,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Oil": {
+      "Type": "package",
+      "Description": "Oil",
+      "Price": 10,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Cementing Paste": {
+      "Type": "package",
+      "Description": "Cementing Paste",
+      "Price": 10,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Metal Ingot": {
+      "Type": "package",
+      "Description": "Metal Ingot",
+      "Price": 10,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Polymer": {
+      "Type": "package",
+      "Description": "Polymer",
+      "Price": 10,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer.PrimalItemResource_Polymer'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Crystal": {
+      "Type": "package",
+      "Description": "Crystal",
+      "Price": 10,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Wood": {
+      "Type": "package",
+      "Description": "Wood",
+      "Price": 5,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Thatch": {
+      "Type": "package",
+      "Description": "Thatch",
+      "Price": 5,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Black Pearls": {
+      "Type": "package",
+      "Description": "Black Pearls",
+      "Price": 20,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Medical Brew": {
+      "Type": "package",
+      "Description": "Medical Brew",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup'",
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Sweet Vegetable Cake": {
+      "Type": "package",
+      "Description": "Sweet Vegetable Cake",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Battle Tartare": {
+      "Type": "package",
+      "Description": "Battle Tartare",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_BattleTartare.PrimalItemConsumable_Soup_BattleTartare'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Shadow Steak": {
+      "Type": "package",
+      "Description": "Shadow Steak",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_ShadowSteak.PrimalItemConsumable_Soup_ShadowSteak'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Focal Chili": {
+      "Type": "package",
+      "Description": "Focal Chili",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FocalChili.PrimalItemConsumable_Soup_FocalChili'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Mindwipe Tonic": {
+      "Type": "package",
+      "Description": "Mindwipe Tonic",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Lazarus Chowder": {
+      "Type": "package",
+      "Description": "Lazarus Chowder",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_LazarusChowder.PrimalItemConsumable_Soup_LazarusChowder'",
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Beer Jar": {
+      "Type": "package",
+      "Description": "Beer Jar",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ]
+    },
+    "Kibble Pack": {
+      "Type": "package",
+      "Description": "Kibble Pack",
+      "Price": 50,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small.PrimalItemConsumable_Kibble_Base_Small'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge.PrimalItemConsumable_Kibble_Base_XLarge'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
         }
       ]
     }
