@@ -3099,7 +3099,7 @@
         {
           "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'",
           "Amount": 1,
-          "Quality": 1,
+          "Quality": 0,
           "ForceBlueprint": true
         }
       ]
@@ -3112,7 +3112,7 @@
         {
           "Blueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/PrimalItemArmor_DesmodusSaddle.PrimalItemArmor_DesmodusSaddle'",
           "Amount": 1,
-          "Quality": 1,
+          "Quality": 0,
           "ForceBlueprint": true
         }
       ]
@@ -3125,7 +3125,7 @@
         {
           "Blueprint": "Blueprint'/Game/Dragontopia/Dragons/Eclipsar/Lumina/PrimalItemArmor_LuminaSaddle.PrimalItemArmor_LuminaSaddle'",
           "Amount": 1,
-          "Quality": 1,
+          "Quality": 0,
           "ForceBlueprint": true
         }
       ]
