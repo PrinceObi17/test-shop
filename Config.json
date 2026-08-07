@@ -5,7 +5,7 @@
       "Interval": 900,
       "Amount": 10
     },
-    "WipeTime": 1784991600,
+    "WipeTime": 1786287900,
     "UseModdedCryo": false,
     "CryoPath": ""
   },
@@ -110,6 +110,110 @@
           "Neutered": true,
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'",
+          "Gender": "random"
+        }
+      ]
+    },
+    "4HRKIT": {
+      "Type": "kit",
+      "Description": "4HR Kit",
+      "DefaultAmount": 1,
+      "UnlockTime": 4,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedSniperBullet.PrimalItemAmmo_AdvancedSniperBullet'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleShotgunBullet.PrimalItemAmmo_SimpleShotgunBullet'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+          "Amount": 1,
+          "Quality": 2,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart'",
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false
+        },
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'",
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false
+        }
+      ],
+      "Dinos": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "",
+          "Gender": "random"
+        },
+        {
+          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+          "Level": 150,
+          "Neutered": true,
+          "SpawnInCryo": true,
+          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
           "Gender": "random"
         }
       ]
@@ -223,110 +327,6 @@
           "SpawnInCryo": true,
           "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
           "Gender": "female"
-        }
-      ]
-    },
-    "4HRKIT": {
-      "Type": "kit",
-      "Description": "4HR Kit",
-      "DefaultAmount": 1,
-      "UnlockTime": 4,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedSniperBullet.PrimalItemAmmo_AdvancedSniperBullet'",
-          "Amount": 100,
-          "Quality": 0,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleShotgunBullet.PrimalItemAmmo_SimpleShotgunBullet'",
-          "Amount": 100,
-          "Quality": 0,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
-          "Amount": 1,
-          "Quality": 2,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart'",
-          "Amount": 100,
-          "Quality": 0,
-          "ForceBlueprint": false
-        },
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'",
-          "Amount": 50,
-          "Quality": 0,
-          "ForceBlueprint": false
-        }
-      ],
-      "Dinos": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'",
-          "Level": 150,
-          "Neutered": true,
-          "SpawnInCryo": true,
-          "SaddleBlueprint": "",
-          "Gender": "random"
-        },
-        {
-          "Blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
-          "Level": 150,
-          "Neutered": true,
-          "SpawnInCryo": true,
-          "SaddleBlueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'",
-          "Gender": "random"
         }
       ]
     },
@@ -4235,19 +4235,6 @@
         }
       ]
     },
-    "Fabricated Crossbow": {
-      "Type": "package",
-      "Description": "Fabricated Crossbow",
-      "Price": 100,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/LostColony/Weapons/FabricatedCrossbow/PrimalItem_WeaponCrossbow_Fab.PrimalItem_WeaponCrossbow_Fab'",
-          "Amount": 1,
-          "Quality": 1,
-          "ForceBlueprint": true
-        }
-      ]
-    },
     "Sword BP": {
       "Type": "package",
       "Description": "Sword BP",
@@ -4612,19 +4599,6 @@
         }
       ]
     },
-    "Tek Sword BP": {
-      "Type": "package",
-      "Description": "Tek Sword BP",
-      "Price": 150,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTekSword.PrimalItem_WeaponTekSword'",
-          "Amount": 1,
-          "Quality": 1,
-          "ForceBlueprint": true
-        }
-      ]
-    },
     "Tek Railgun BP": {
       "Type": "package",
       "Description": "Tek Railgun BP",
@@ -4696,7 +4670,7 @@
       "Price": 10,
       "Items": [
         {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'",
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'",
           "Amount": 500,
           "Quality": 0,
           "ForceBlueprint": false
